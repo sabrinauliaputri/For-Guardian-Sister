@@ -21,9 +21,10 @@ overflow-x:hidden;
 position:fixed;
 top:-20px;
 font-size:14px;
-opacity:0.2;
+opacity:0.25;
 animation:fall linear infinite;
-z-index:1;
+z-index:999;
+pointer-events:none;
 }
 
 @keyframes fall{
@@ -36,7 +37,7 @@ max-width:720px;
 margin:auto;
 padding:30px 20px;
 position:relative;
-z-index:2;
+z-index:1;
 }
 
 .card{
@@ -94,11 +95,11 @@ padding:20px;
 
 <!-- subtle decor -->
 <div class="floating" style="left:10%; animation-duration:12s;">•</div>
-<div class="floating" style="left:25%; animation-duration:15s;">•</div>
-<div class="floating" style="left:40%; animation-duration:10s;">•</div>
+<div class="floating" style="left:25%; animation-duration:15s;">✦</div>
+<div class="floating" style="left:40%; animation-duration:10s;">°</div>
 <div class="floating" style="left:60%; animation-duration:14s;">•</div>
-<div class="floating" style="left:75%; animation-duration:11s;">•</div>
-<div class="floating" style="left:90%; animation-duration:13s;">•</div>
+<div class="floating" style="left:75%; animation-duration:11s;">✦</div>
+<div class="floating" style="left:90%; animation-duration:13s;">°</div>
 
 <div class="container">
 
