@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Mbak Ayu ☕</title>
+
+<style>
+body{
+margin:0;
+padding:0;
+font-family: Georgia, serif;
+background: linear-gradient(to bottom, #f7f3ef, #eae3db);
+color:#3e342f;
+text-align:center;
+overflow-x:hidden;
+}
+
+/* subtle floating dots (biar ga terlalu kosong) */
+.floating{
+position:fixed;
+top:-20px;
+font-size:14px;
+opacity:0.2;
+animation:fall linear infinite;
+z-index:1;
+}
+
+@keyframes fall{
+0%{transform:translateY(-20px);}
+100%{transform:translateY(110vh);}
+}
+
+.container{
+max-width:720px;
+margin:auto;
+padding:30px 20px;
+position:relative;
+z-index:2;
+}
+
+.card{
+background:rgba(255,255,255,0.9);
+padding:28px;
+border-radius:20px;
+box-shadow:0 8px 20px rgba(0,0,0,0.08);
+margin-bottom:24px;
+}
+
+h1{
+font-size:34px;
+margin-bottom:10px;
+color:#5a463f;
+}
+
+h2{
+color:#6b544c;
+}
+
+p{
+font-size:18px;
+line-height:1.8;
+}
+
+button{
+padding:12px 20px;
+border:none;
+border-radius:10px;
+background:#6b544c;
+color:white;
+font-size:15px;
+cursor:pointer;
+margin:8px;
+}
+
+button:hover{
+opacity:0.9;
+}
+
+audio{
+width:90%;
+margin-top:10px;
+}
+
+.footer{
+font-size:14px;
+color:#7b6a63;
+padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- subtle decor -->
+<div class="floating" style="left:10%; animation-duration:12s;">•</div>
+<div class="floating" style="left:25%; animation-duration:15s;">•</div>
+<div class="floating" style="left:40%; animation-duration:10s;">•</div>
+<div class="floating" style="left:60%; animation-duration:14s;">•</div>
+<div class="floating" style="left:75%; animation-duration:11s;">•</div>
+<div class="floating" style="left:90%; animation-duration:13s;">•</div>
+
+<div class="container">
+
+<div class="card">
+<h1>Happy Birthday, Mbak Ayu ☕</h1>
+<p>
+To someone who feels like  
+a quiet place to return to.
+</p>
+</div>
+
+<div class="card">
+<h2>Play This 🎵</h2>
+
+<audio controls>
+<source src="song.mp3" type="audio/mpeg">
+</audio>
+
+</div>
+
+<div class="card">
+<h2>About You 📖</h2>
+<p>
+Not loud,<br>
+but always present.<br><br>
+
+Not soft in obvious ways,<br>
+but deeply grounding.
+</p>
+</div>
+
+<div class="card">
+<h2>Things That Feel Like You</h2>
+<p>
+Good stories that stay.<br>
+Strong coffee, no sugar.<br>
+Thoughts that run deep.
+</p>
+</div>
+
+<div class="card">
+<h2>Small Things ☕</h2>
+
+<button onclick="alert('Semoga bukunya bagus dan ga bikin kamu overthinking 😌')">
+Reading?
+</button>
+
+<button onclick="alert('Pahitnya pas kan?')">
+Coffee?
+</button>
+
+<button onclick="alert('You are stronger than you show.')">
+Reminder
+</button>
+
+</div>
+
+<div class="card">
+<h2>From Me 🤍</h2>
+<p>
+Kita mungkin nggak selalu sejalan,<br>
+tapi aku selalu respect cara kamu berpikir<br>
+dan cara kamu menjalani hidup.
+</p>
+</div>
+
+<div class="card">
+<h2>For You</h2>
+<p>
+Stay strong.<br>
+Stay wise.<br>
+Stay you.
+</p>
+</div>
+
+<div class="footer">
+For my guardian sister ☕📖
+</div>
+
+</div>
+
+</body>
+</html>
